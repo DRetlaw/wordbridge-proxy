@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "WordBridge - Indian Translator",
+  "version": "2.0.0",
+  "description": "Double-click a word on a webpage to translate it into an Indian language using your private proxy API.",
+  "permissions": ["storage"],
+  "host_permissions": ["https://wordbridge-proxy.retlaw-ai-lab.workers.dev/*"],
+  "background": {"service_worker": "background.js"},
+  "action": {"default_title": "WordBridge Translator", "default_popup": "popup.html"},
+  "options_ui": {"page": "options.html", "open_in_tab": true},
+  "content_scripts": [{
+    "matches": ["http://*/*", "https://*/*"],
+    "js": ["content.js"],
+    "run_at": "document_idle"
+  }]
+}

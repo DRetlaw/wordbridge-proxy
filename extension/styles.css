@@ -1,0 +1,8 @@
+body{font-family:Arial,sans-serif;color:#1f2937;margin:0;background:#f8fafc}
+.popup{width:270px;padding:16px;box-sizing:border-box}.options{padding:40px 16px}
+.settings-card{max-width:420px;margin:0 auto;padding:28px;background:white;border:1px solid #e2e8f0;border-radius:16px;box-shadow:0 8px 30px #0000000d}
+h1{font-size:26px;margin:0 0 8px}h2{font-size:20px;margin:0 0 18px}p{font-size:14px;line-height:1.5}
+label{display:block;margin:16px 0 7px;font-weight:600;font-size:14px}
+select{width:100%;padding:11px;border:1px solid #cbd5e1;border-radius:8px;background:white;box-sizing:border-box;font-size:14px}
+button{width:100%;margin-top:14px;padding:11px;border:0;border-radius:8px;background:#2563eb;color:white;font-size:14px;font-weight:600;cursor:pointer}
+#status{color:#047857;font-size:13px}.hint{color:#64748b;font-size:12px;line-height:1.5}hr{border:0;border-top:1px solid #e2e8f0;margin-top:18px}

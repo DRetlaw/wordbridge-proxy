@@ -1,0 +1,6 @@
+name = "wordbridge-proxy"
+main = "src/index.js"
+compatibility_date = "2026-09-27"
+workers_dev = true
+
+# Set the OpenRouter key as a secret, not a plaintext var.
